@@ -7,15 +7,6 @@ enabled = true
   [analyzers.meta]
   runtime_version = "3.x.x"
 
-  [analyzers.meta.linters]
-  pylint = true
-  flake8 = true
-  bandit = true
-  mypy = true
-  black = true
-  isort = true
-  pep8 = true
-
 [[analyzers]]
 name = "docker"
 enabled = true
