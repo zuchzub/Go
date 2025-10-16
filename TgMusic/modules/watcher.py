@@ -101,7 +101,7 @@ async def handle_bot_join(client: Client, chat_id: int) -> None:
         )
         return
 
-    if invite_link := getattr(chat_info.invite_link, "invite_link", None):
+    if invite_link := chat_info.invite_link:
         chat_invite_cache[chat_id] = invite_link
 
 
