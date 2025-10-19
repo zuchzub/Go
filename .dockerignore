@@ -1,4 +1,4 @@
-**
-!*.py
-!TgMusic/
-!pyproject.toml
+.dockerignore
+!go.*
+!*.go
+!pkg

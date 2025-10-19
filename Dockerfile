@@ -1,17 +1,33 @@
-FROM python:3.13-slim
+FROM golang:1.24.4 AS builder
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    ffmpeg \
+RUN apt-get update && apt-get install -y \
     git \
-    curl \
+    gcc \
+    zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir uv
+COPY go.mod go.sum setup_ntgcalls.go ./
+RUN go mod download
 
-COPY . /app/
+COPY . .
 
-RUN uv pip install -e . --system
+RUN go generate
+RUN CGO_ENABLED=1 go build -ldflags="-w -s" -o myapp .
 
-CMD ["start"]
+FROM ubuntu:22.04
+
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    wget \
+    zlib1g \
+    && wget -O /usr/local/bin/yt-dlp \
+       https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux \
+    && chmod +x /usr/local/bin/yt-dlp \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY --from=builder /app/myapp /tgmusic
+RUN chmod +x /tgmusic
+
+ENTRYPOINT ["/tgmusic"]
