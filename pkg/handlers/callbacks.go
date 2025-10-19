@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"fmt"
+	"github.com/AshokShau/TgMusicBot/pkg/core"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/vc"
 	"strings"
-	"tgmusic/pkg/core"
-	"tgmusic/pkg/core/cache"
-	"tgmusic/pkg/vc"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

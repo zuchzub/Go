@@ -6,7 +6,7 @@ package core
 
 import (
 	"fmt"
-	"tgmusic/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
 
 	"github.com/amarnathcjd/gogram/telegram"
 )

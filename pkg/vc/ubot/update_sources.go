@@ -1,8 +1,8 @@
 package ubot
 
 import (
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
 	"slices"
-	"tgmusic/pkg/vc/ubot/types"
 )
 
 func (ctx *Context) updateSources(chatId int64) error {

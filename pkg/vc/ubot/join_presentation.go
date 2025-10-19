@@ -1,8 +1,8 @@
 package ubot
 
 import (
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
 	"slices"
-	"tgmusic/pkg/vc/ntgcalls"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )

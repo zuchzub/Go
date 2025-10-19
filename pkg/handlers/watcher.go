@@ -2,11 +2,11 @@ package handlers
 
 import (
 	"fmt"
+	"github.com/AshokShau/TgMusicBot/pkg/core"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
+	"github.com/AshokShau/TgMusicBot/pkg/vc"
 	"log"
-	"tgmusic/pkg/core"
-	"tgmusic/pkg/core/cache"
-	"tgmusic/pkg/core/db"
-	"tgmusic/pkg/vc"
 	"time"
 
 	"github.com/Laky-64/gologging"

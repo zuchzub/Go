@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"fmt"
-	"tgmusic/pkg/core/db"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

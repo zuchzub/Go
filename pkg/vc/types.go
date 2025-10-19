@@ -1,9 +1,9 @@
 package vc
 
 import (
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot"
 	"sync"
-	"tgmusic/pkg/core/cache"
-	"tgmusic/pkg/vc/ubot"
 	"time"
 
 	tg "github.com/amarnathcjd/gogram/telegram"

@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
 	"net/http"
 	"net/url"
 	"regexp"
 	"strings"
-	"tgmusic/pkg/config"
-	"tgmusic/pkg/core/cache"
 
 	"github.com/Laky-64/gologging"
 )

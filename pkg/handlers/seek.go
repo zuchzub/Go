@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"fmt"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/vc"
 	"strconv"
-	"tgmusic/pkg/core/cache"
-	"tgmusic/pkg/vc"
 
 	"github.com/amarnathcjd/gogram/telegram"
 )

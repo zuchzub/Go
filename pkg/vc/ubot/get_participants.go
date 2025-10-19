@@ -1,9 +1,9 @@
 package ubot
 
 import (
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
 	"maps"
 	"slices"
-	"tgmusic/pkg/vc/ubot/types"
 	"time"
 
 	tg "github.com/amarnathcjd/gogram/telegram"

@@ -2,8 +2,8 @@ package ubot
 
 import (
 	"fmt"
-	ntgcalls2 "tgmusic/pkg/vc/ntgcalls"
-	"tgmusic/pkg/vc/ubot/types"
+	ntgcalls2 "github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
 	"time"
 
 	tg "github.com/amarnathcjd/gogram/telegram"

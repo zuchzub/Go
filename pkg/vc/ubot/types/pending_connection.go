@@ -1,7 +1,7 @@
 package types
 
 import (
-	"tgmusic/pkg/vc/ntgcalls"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
 )
 
 type PendingConnection struct {

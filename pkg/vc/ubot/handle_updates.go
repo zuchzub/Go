@@ -2,9 +2,9 @@ package ubot
 
 import (
 	"fmt"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
 	"slices"
-	"tgmusic/pkg/vc/ntgcalls"
-	"tgmusic/pkg/vc/ubot/types"
 	"time"
 
 	"github.com/Laky-64/gologging"

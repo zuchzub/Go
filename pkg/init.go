@@ -1,9 +1,9 @@
 package pkg
 
 import (
-	"tgmusic/pkg/config"
-	"tgmusic/pkg/handlers"
-	"tgmusic/pkg/vc"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/handlers"
+	"github.com/AshokShau/TgMusicBot/pkg/vc"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )

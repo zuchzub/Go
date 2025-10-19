@@ -1,10 +1,10 @@
 package handlers
 
 import (
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
 	"strings"
-	"tgmusic/pkg/config"
-	"tgmusic/pkg/core/cache"
-	"tgmusic/pkg/core/db"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

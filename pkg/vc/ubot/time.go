@@ -1,6 +1,6 @@
 package ubot
 
-import "tgmusic/pkg/vc/ntgcalls"
+import "github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
 
 func (ctx *Context) Time(chatId any, streamMode ntgcalls.StreamMode) (uint64, error) {
 	parsedChatId, err := ctx.parseChatId(chatId)

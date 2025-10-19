@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"fmt"
-	"tgmusic/pkg/core"
-	"tgmusic/pkg/core/db"
+	"github.com/AshokShau/TgMusicBot/pkg/core"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
 	"time"
 
 	"github.com/amarnathcjd/gogram/telegram"

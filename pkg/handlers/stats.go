@@ -2,11 +2,11 @@ package handlers
 
 import (
 	"fmt"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
-	"tgmusic/pkg/core/db"
 	"time"
 
 	"github.com/amarnathcjd/gogram/telegram"

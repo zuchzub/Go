@@ -1,10 +1,10 @@
 package main
 
 import (
-	"tgmusic/pkg"
-	"tgmusic/pkg/config"
-	"tgmusic/pkg/core/db"
-	"tgmusic/pkg/vc"
+	"github.com/AshokShau/TgMusicBot/pkg"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
+	"github.com/AshokShau/TgMusicBot/pkg/vc"
 	"time"
 
 	_ "net/http"

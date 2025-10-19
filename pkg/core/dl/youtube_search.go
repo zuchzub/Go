@@ -3,11 +3,11 @@ package dl
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
 	"io"
 	"net/http"
 	"regexp"
 	"strings"
-	"tgmusic/pkg/core/cache"
 )
 
 // searchYouTube scrapes YouTube results page

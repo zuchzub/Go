@@ -2,8 +2,8 @@ package vc
 
 import (
 	"fmt"
-	"tgmusic/pkg/config"
-	"tgmusic/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
 
 	"github.com/Laky-64/gologging"
 	tg "github.com/amarnathcjd/gogram/telegram"
