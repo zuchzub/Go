@@ -2,12 +2,11 @@ package main
 
 import (
 	"bufio"
-	"context"
 	"fmt"
 	"os"
 	"strings"
 
-	"github.com/amarnathcjd/gogram/telegram"
+	tg "github.com/amarnathcjd/gogram/telegram"
 )
 
 func main() {
@@ -30,28 +29,30 @@ func main() {
 	phoneNumber, _ := reader.ReadString('\n')
 	phoneNumber = strings.TrimSpace(phoneNumber)
 
+	// Create client configuration
+	cfg := tg.NewClientConfigBuilder(apiID, apiHash).
+		WithSession("temp_session.dat").
+		Build()
+
 	// Create client
-	client, err := telegram.NewClient(telegram.ClientConfig{
-		AppID:    apiID,
-		AppHash:  apiHash,
-		LogLevel: telegram.LogInfo,
-	})
+	client, err := tg.NewClient(cfg)
 	if err != nil {
 		fmt.Printf("Error creating client: %v\n", err)
 		return
 	}
 
-	// Connect
-	if err := client.Connect(); err != nil {
+	// Connect to Telegram
+	_, err = client.Conn()
+	if err != nil {
 		fmt.Printf("Error connecting: %v\n", err)
 		return
 	}
 
-	// Send code
+	// Login with phone number
 	fmt.Println("\nSending verification code...")
-	sentCode, err := client.Auth().SendCode(phoneNumber, 5)
+	err = client.Login(phoneNumber)
 	if err != nil {
-		fmt.Printf("Error sending code: %v\n", err)
+		fmt.Printf("Error during login: %v\n", err)
 		return
 	}
 
@@ -60,32 +61,28 @@ func main() {
 	code, _ := reader.ReadString('\n')
 	code = strings.TrimSpace(code)
 
-	// Sign in
-	_, err = client.Auth().SignIn(phoneNumber, code, sentCode.PhoneCodeHash)
+	// Verify code
+	_, err = client.VerifyCode(phoneNumber, code)
 	if err != nil {
 		// Check if 2FA is enabled
-		if strings.Contains(err.Error(), "SESSION_PASSWORD_NEEDED") {
+		if strings.Contains(err.Error(), "password") || strings.Contains(err.Error(), "2FA") {
 			fmt.Print("Enter your 2FA password: ")
 			password, _ := reader.ReadString('\n')
 			password = strings.TrimSpace(password)
 
-			_, err = client.Auth().Password(context.Background(), password)
+			_, err = client.VerifyPassword(password)
 			if err != nil {
 				fmt.Printf("Error with 2FA: %v\n", err)
 				return
 			}
 		} else {
-			fmt.Printf("Error signing in: %v\n", err)
+			fmt.Printf("Error verifying code: %v\n", err)
 			return
 		}
 	}
 
 	// Get string session
-	stringSession, err := client.ExportStringSession()
-	if err != nil {
-		fmt.Printf("Error exporting session: %v\n", err)
-		return
-	}
+	stringSession := client.ExportStringSession()
 
 	fmt.Println("\n" + strings.Repeat("=", 60))
 	fmt.Println("Your Gogram String Session:")
@@ -94,4 +91,7 @@ func main() {
 	fmt.Println(strings.Repeat("=", 60))
 	fmt.Println("\nSave this string session securely!")
 	fmt.Println("You can use it to login without phone number in the future.")
+	
+	// Clean up temporary session file
+	os.Remove("temp_session.dat")
 }
