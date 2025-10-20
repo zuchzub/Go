@@ -19,46 +19,152 @@
     },
     "API_ID": {
       "description": "Your API ID from https://my.telegram.org",
+      "value": "23154554",
       "required": true
     },
     "API_HASH": {
       "description": "Your API Hash from https://my.telegram.org",
+      "value": "0203ee10042a94ff35971720f058f293",
       "required": true
     },
-    "STRING_SESSION": {
-      "description": "Pyrogram String Session for userbot (use generate_pyrogram_session.py to generate)",
+    "STRING1": {
+      "description": "Pyrogram String Session #1 for userbot (use generate_pyrogram_session.py to generate)",
+      "value": "BQHGAdUAv_QUxI0HMpO647KZLrk7kb0VEKDhrsukglrO_iu8XkMmUVPL1xPLweWHoxdKn7qiwOMVAa0RuXCaovKykd8MzLzWPPf4QXwXqE_DlK-91seOdYSf4waGxT-Ly3aLYw2P5wVsXiI-F6hFGwUWLYah9niUoABN2ZWfKDFKreviRZVs3ucNC0PuFxHECfatFUWLCtYoIYnxIsRZaqvoOLUT06k52mHMwuY6cNui09uuol_2IlomvdkwBDKWF3qIncLuwUCA8dJIa5gxWBQI2jR2Cp95zBgFlcIqPMLkZei2MDvi7NXvsxtwWRE370g7hbV6QZGSJHHg40zmrV91Alt_zQAAAAFOS1smAA",
       "required": true
     },
-    "MONGODB_URL": {
+    "STRING2": {
+      "description": "Pyrogram String Session #2 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING3": {
+      "description": "Pyrogram String Session #3 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING4": {
+      "description": "Pyrogram String Session #4 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING5": {
+      "description": "Pyrogram String Session #5 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING6": {
+      "description": "Pyrogram String Session #6 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING7": {
+      "description": "Pyrogram String Session #7 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING8": {
+      "description": "Pyrogram String Session #8 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING9": {
+      "description": "Pyrogram String Session #9 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "STRING10": {
+      "description": "Pyrogram String Session #10 (optional, for multiple assistants)",
+      "value": "",
+      "required": false
+    },
+    "MONGO_URI": {
       "description": "MongoDB connection URL (you can use MongoDB Atlas free tier)",
-      "required": true
-    },
-    "LOGGER_ID": {
-      "description": "Telegram Chat ID for logging (your user ID or group ID)",
-      "required": true
-    },
-    "OWNER_ID": {
-      "description": "Bot owner's Telegram User ID",
+      "value": "mongodb+srv://manonebillioncorp:iwan12345@cluster0.w0qde.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": true
     },
     "API_URL": {
-      "description": "API URL for YouTube search (optional, leave default)",
-      "value": "https://api.safone.dev",
+      "description": "API URL for YouTube search and music info",
+      "value": "https://tgmusic.fallenapi.fun",
       "required": false
     },
     "API_KEY": {
-      "description": "API Key for YouTube search (optional)",
-      "value": "SAF_ONE",
+      "description": "API Key for YouTube search",
+      "value": "12dff9_CyV5yNO8JsMl_Br77fX17V2OTcLhTUEX",
       "required": false
     },
-    "PPROF_PORT": {
-      "description": "Port for pprof profiling (optional)",
-      "value": "5068",
+    "OWNER_ID": {
+      "description": "Bot owner's Telegram User ID",
+      "value": "1259894923",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "Telegram Chat ID for logging (your user ID or group/channel ID for logs)",
+      "value": "-1002339919418",
+      "required": true
+    },
+    "DEFAULT_SERVICE": {
+      "description": "Default music service (youtube/spotify)",
+      "value": "youtube",
+      "required": false
+    },
+    "MIN_MEMBER_COUNT": {
+      "description": "Minimum member count required in group to use bot",
+      "value": "10",
       "required": false
     },
     "DOWNLOADS_DIR": {
       "description": "Directory for downloaded files",
       "value": "/tmp/downloads",
+      "required": false
+    },
+    "DB_NAME": {
+      "description": "Database name in MongoDB",
+      "value": "GoMusicBot",
+      "required": false
+    },
+    "START_IMG": {
+      "description": "Image URL for start command",
+      "value": "https://i.pinimg.com/1200x/e8/89/d3/e889d394e0afddfb0eb1df0ab663df95.jpg",
+      "required": false
+    },
+    "IGNORE_BACKGROUND_UPDATES": {
+      "description": "Ignore background updates (True/False)",
+      "value": "True",
+      "required": false
+    },
+    "AUTO_LEAVE": {
+      "description": "Auto leave voice chat when idle (True/False)",
+      "value": "True",
+      "required": false
+    },
+    "PROXY": {
+      "description": "Proxy URL if needed (optional)",
+      "value": "",
+      "required": false
+    },
+    "COOKIES_URL": {
+      "description": "URL to cookies file for YouTube (optional)",
+      "value": "https://batbin.me/shooler",
+      "required": false
+    },
+    "SUPPORT_GROUP": {
+      "description": "Support group link",
+      "value": "https://t.me/tgnolimitchat",
+      "required": false
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Support channel link",
+      "value": "https://t.me/tgnolimit",
+      "required": false
+    },
+    "DEVS": {
+      "description": "Developer user IDs (space-separated)",
+      "value": "1259894923 6710439195",
+      "required": false
+    },
+    "PPROF_PORT": {
+      "description": "Port for pprof profiling (optional)",
+      "value": "5068",
       "required": false
     }
   },
