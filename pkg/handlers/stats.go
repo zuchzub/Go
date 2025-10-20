@@ -2,14 +2,13 @@ package handlers
 
 import (
 	"fmt"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
 	"time"
-
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 
 	"github.com/amarnathcjd/gogram/telegram"
 	"github.com/shirou/gopsutil/cpu"

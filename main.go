@@ -1,15 +1,14 @@
 package main
 
 import (
-	"log"
-	"net/http"
-	"time"
-
 	"https://github.com/iamnolimit/tggomusicbot/pkg"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"log"
+	"net/http"
+	"time"
 
 	_ "net/http"
 	_ "net/http/pprof"
