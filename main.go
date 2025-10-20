@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/AshokShau/TgMusicBot/pkg"
-	"github.com/AshokShau/TgMusicBot/pkg/config"
-	"github.com/AshokShau/TgMusicBot/pkg/core/db"
-	"github.com/AshokShau/TgMusicBot/pkg/lang"
-	"github.com/AshokShau/TgMusicBot/pkg/vc"
+	"https://github.com/iamnolimit/tggomusicbot/pkg"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
 
 	_ "net/http"
 	_ "net/http/pprof"

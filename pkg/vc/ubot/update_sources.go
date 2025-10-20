@@ -3,7 +3,7 @@ package ubot
 import (
 	"slices"
 
-	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
 )
 
 func (ctx *Context) updateSources(chatId int64) error {

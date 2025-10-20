@@ -5,8 +5,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
-	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
 
 	"github.com/Laky-64/gologging"
 	tg "github.com/amarnathcjd/gogram/telegram"

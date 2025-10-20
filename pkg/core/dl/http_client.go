@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
 
 	"github.com/Laky-64/gologging"
 )

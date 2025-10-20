@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/AshokShau/TgMusicBot/pkg/core/db"
-	"github.com/AshokShau/TgMusicBot/pkg/lang"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

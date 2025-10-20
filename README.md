@@ -5,13 +5,13 @@
 **A high-performance, open-source Telegram Music Bot written in Go — stream music and video in Telegram voice chats effortlessly.**
 
 <p>
-  <a href="https://github.com/AshokShau/TgMusicBot/stargazers">
+  <a href="https://https://github.com/iamnolimit/tggomusicbot/stargazers">
     <img src="https://img.shields.io/github/stars/AshokShau/TgMusicBot?style=for-the-badge&color=ffd700&logo=github" alt="Stars">
   </a>
-  <a href="https://github.com/AshokShau/TgMusicBot/network/members">
+  <a href="https://https://github.com/iamnolimit/tggomusicbot/network/members">
     <img src="https://img.shields.io/github/forks/AshokShau/TgMusicBot?style=for-the-badge&color=8a2be2&logo=github" alt="Forks">
   </a>
-  <a href="https://github.com/AshokShau/TgMusicBot/blob/main/LICENSE">
+  <a href="https://https://github.com/iamnolimit/tggomusicbot/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/AshokShau/TgMusicBot?style=for-the-badge&color=4169e1" alt="License">
   </a>
   <a href="https://goreportcard.com/report/github.com/AshokShau/TgMusicBot">
@@ -185,4 +185,4 @@ See the [LICENSE](LICENSE) file for details.
 
 - 📦 Repo: [TgMusicBot on GitHub](https://github.com/AshokShau/TgMusicBot)
 - 💬 Support: [Telegram Group](https://t.me/FallenProjects)
-- 🐍 Old version: [TgMusicBot (Python)](https://github.com/AshokShau/TgMusicBot/tree/python)
+- 🐍 Old version: [TgMusicBot (Python)](https://https://github.com/iamnolimit/tggomusicbot/tree/python)

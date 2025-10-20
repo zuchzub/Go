@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
-	"github.com/AshokShau/TgMusicBot/pkg/core/db"
-	"github.com/AshokShau/TgMusicBot/pkg/lang"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 
 	"github.com/Laky-64/gologging"
 	tg "github.com/amarnathcjd/gogram/telegram"

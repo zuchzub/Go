@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/AshokShau/TgMusicBot/pkg/core"
-	"github.com/AshokShau/TgMusicBot/pkg/core/db"
-	"github.com/AshokShau/TgMusicBot/pkg/lang"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 
 	"github.com/amarnathcjd/gogram/telegram"
 )

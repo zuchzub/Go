@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/AshokShau/TgMusicBot/pkg/config"
-	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
 
 	"github.com/Laky-64/gologging"
 )
