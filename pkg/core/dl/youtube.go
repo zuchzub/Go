@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
 )
 
 // YouTubeData provides an interface for fetching track and playlist information from YouTube.

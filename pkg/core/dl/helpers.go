@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
 )
 
 const (

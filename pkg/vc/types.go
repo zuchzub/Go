@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )

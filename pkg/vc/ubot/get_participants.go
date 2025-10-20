@@ -5,7 +5,7 @@ import (
 	"slices"
 	"time"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )

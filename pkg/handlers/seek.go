@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
+	"github.com/AshokShau/TgMusicBot/pkg/lang"
+	"github.com/AshokShau/TgMusicBot/pkg/vc"
 
 	"github.com/amarnathcjd/gogram/telegram"
 )

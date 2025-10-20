@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

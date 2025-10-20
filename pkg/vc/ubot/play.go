@@ -1,7 +1,7 @@
 package ubot
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
 )
 
 func (ctx *Context) Play(chatId any, mediaDescription ntgcalls.MediaDescription) error {

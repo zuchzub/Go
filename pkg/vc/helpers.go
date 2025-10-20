@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/dl"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/core/dl"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

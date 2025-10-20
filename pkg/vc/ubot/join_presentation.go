@@ -3,7 +3,7 @@ package ubot
 import (
 	"slices"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )

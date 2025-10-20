@@ -3,10 +3,10 @@ package handlers
 import (
 	"strings"
 
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
+	"github.com/AshokShau/TgMusicBot/pkg/config"
+	"github.com/AshokShau/TgMusicBot/pkg/core/cache"
+	"github.com/AshokShau/TgMusicBot/pkg/core/db"
+	"github.com/AshokShau/TgMusicBot/pkg/lang"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

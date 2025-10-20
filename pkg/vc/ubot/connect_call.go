@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	ntgcalls2 "https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
+	ntgcalls2 "github.com/AshokShau/TgMusicBot/pkg/vc/ntgcalls"
+	"github.com/AshokShau/TgMusicBot/pkg/vc/ubot/types"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )
