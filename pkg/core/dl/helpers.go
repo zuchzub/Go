@@ -3,11 +3,10 @@ package dl
 import (
 	"context"
 	"errors"
+	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
 	"net/url"
 	"regexp"
 	"strings"
-
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
 )
 
 const (

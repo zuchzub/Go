@@ -2,13 +2,12 @@ package handlers
 
 import (
 	"fmt"
-	"strings"
-
 	"https://github.com/iamnolimit/tggomusicbot/pkg/core"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"strings"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

@@ -3,13 +3,6 @@ package handlers
 import (
 	"context"
 	"fmt"
-	"path/filepath"
-	"regexp"
-	"strconv"
-	"strings"
-	"sync"
-	"time"
-
 	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/core"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
@@ -17,6 +10,12 @@ import (
 	"https://github.com/iamnolimit/tggomusicbot/pkg/core/dl"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
 	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"path/filepath"
+	"regexp"
+	"strconv"
+	"strings"
+	"sync"
+	"time"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

@@ -1,11 +1,10 @@
 package ubot
 
 import (
+	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
 	"maps"
 	"slices"
 	"time"
-
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )
