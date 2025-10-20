@@ -48,11 +48,22 @@ It supports streaming from popular sources like YouTube, making it a complete so
 
 ## 🚀 Getting Started
 
+### 🌐 Quick Deploy to Heroku
+
+Deploy to Heroku with one click:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Or follow the detailed guide: **[Heroku Deployment Guide](HEROKU_DEPLOY.md)**
+
+---
+
 ### 🔧 Manual Setup
 
 For manual setup instructions for Linux, macOS, and Windows, please see the **[Installation Guide](docs/installation.md)**.
 
 The guide provides comprehensive instructions for deploying the bot using:
+- **🌐 Heroku (One-Click Deploy)**
 - **🐳 Docker (Recommended)**
 - **🔧 Manual Installation (Linux, macOS, and Windows)**
 
