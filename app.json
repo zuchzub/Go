@@ -1,0 +1,80 @@
+{
+  "name": "TG Go Music Bot",
+  "description": "A powerful Telegram music bot written in Go with voice chat support",
+  "repository": "https://github.com/iamnolimit/tggomusicbot",
+  "logo": "https://telegra.ph/file/b0dc0c7f81d470e0b5e32.jpg",
+  "keywords": [
+    "telegram",
+    "music",
+    "bot",
+    "voice-chat",
+    "golang",
+    "youtube",
+    "spotify"
+  ],
+  "env": {
+    "TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Your API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API Hash from https://my.telegram.org",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram String Session for userbot (use generate_pyrogram_session.py to generate)",
+      "required": true
+    },
+    "MONGODB_URL": {
+      "description": "MongoDB connection URL (you can use MongoDB Atlas free tier)",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "Telegram Chat ID for logging (your user ID or group ID)",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Bot owner's Telegram User ID",
+      "required": true
+    },
+    "API_URL": {
+      "description": "API URL for YouTube search (optional, leave default)",
+      "value": "https://api.safone.dev",
+      "required": false
+    },
+    "API_KEY": {
+      "description": "API Key for YouTube search (optional)",
+      "value": "SAF_ONE",
+      "required": false
+    },
+    "PPROF_PORT": {
+      "description": "Port for pprof profiling (optional)",
+      "value": "5068",
+      "required": false
+    },
+    "DOWNLOADS_DIR": {
+      "description": "Directory for downloaded files",
+      "value": "/tmp/downloads",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-go"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "stack": "heroku-22"
+}
