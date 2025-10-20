@@ -5,6 +5,7 @@
 /downloads
 ntgcalls.h
 libntgcalls.a
+libntgcalls.so
 tgmusic
 gosec_report.json
 src/
