@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/zuchzub/Go/pkg"
 	"github.com/zuchzub/Go/pkg/config"
-	"github.com/iamnolimit/tggomusicbot/pkg/core/db"
+	"github.com/zuchzub/Go/pkg/core/db"
 	"github.com/zuchzub/Go/pkg/lang"
 	"github.com/zuchzub/Go/pkg/vc"
 
