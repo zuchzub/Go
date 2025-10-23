@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
+	"github.com/zuchzub/Go/pkg/core"
+"github.com/zuchzub/Go/pkg/core/db"
+"github.com/zuchzub/Go/pkg/lang"
 	"time"
 
 	"github.com/amarnathcjd/gogram/telegram"
