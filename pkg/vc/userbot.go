@@ -3,13 +3,13 @@ package vc
 import (
 	"errors"
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
-	"strings"
+	"github.com/zuchzub/Go/pkg/core/cache"
+"github.com/zuchzub/Go/pkg/core/db"
+"github.com/zuchzub/Go/pkg/lang"
+"strings"
 
-	"github.com/Laky-64/gologging"
-	tg "github.com/amarnathcjd/gogram/telegram"
+"github.com/Laky-64/gologging"
+tg "github.com/amarnathcjd/gogram/telegram"
 )
 
 // joinAssistant ensures the assistant is a member of the specified chat.
