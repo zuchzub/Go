@@ -1,8 +1,8 @@
 package vc
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot"
+	"github.com/zuchzub/Go/pkg/core/cache"
+	"github.com/zuchzub/Go/pkg/vc/ubot"
 	"sync"
 	"time"
 
