@@ -5,7 +5,7 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_path = "github.com/AshokShau/TgMusicBot"
+  import_path = "github.com/zuchzub/Go"
 
 
 [[transformers]]
