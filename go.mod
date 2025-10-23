@@ -44,3 +44,9 @@ require (
 	golang.org/x/term v0.36.0 // indirect
 	golang.org/x/text v0.30.0 // indirect
 )
+
+replace github.com/iamnolimit/tggomusicbot/pkg => ./pkg
+replace github.com/iamnolimit/tggomusicbot/pkg/config => ./pkg/config
+replace github.com/iamnolimit/tggomusicbot/pkg/core/db => ./pkg/core/db
+replace github.com/iamnolimit/tggomusicbot/pkg/lang => ./pkg/lang
+replace github.com/iamnolimit/tggomusicbot/pkg/vc => ./pkg/vc
