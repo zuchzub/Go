@@ -3,8 +3,8 @@ package handlers
 import (
 	"errors"
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
+	"github.com/zuchzub/Go/pkg/core/db"
+	"github.com/zuchzub/Go/pkg/lang"
 
 	"github.com/Laky-64/gologging"
 	"github.com/amarnathcjd/gogram/telegram"

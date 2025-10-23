@@ -1,10 +1,10 @@
 package handlers
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"github.com/zuchzub/Go/pkg/core/cache"
+	"github.com/zuchzub/Go/pkg/core/db"
+	"github.com/zuchzub/Go/pkg/lang"
+	"github.com/zuchzub/Go/pkg/vc"
 
 	"github.com/amarnathcjd/gogram/telegram"
 )
