@@ -45,8 +45,13 @@ require (
 	golang.org/x/text v0.30.0 // indirect
 )
 
-replace github.com/iamnolimit/tggomusicbot/pkg => ./pkg
-replace github.com/iamnolimit/tggomusicbot/pkg/config => ./pkg/config
-replace github.com/iamnolimit/tggomusicbot/pkg/core/db => ./pkg/core/db
-replace github.com/iamnolimit/tggomusicbot/pkg/lang => ./pkg/lang
-replace github.com/iamnolimit/tggomusicbot/pkg/vc => ./pkg/vc
+replace github.com/zuchzub/Go/pkg => ./pkg
+replace github.com/zuchzub/Go/pkg/config => ./pkg/config
+replace github.com/zuchzub/Go/pkg/core => ./pkg/core
+replace github.com/zuchzub/Go/pkg/core/cache => ./pkg/core/cache
+replace github.com/zuchzub/Go/pkg/core/db => ./pkg/core/db
+replace github.com/zuchzub/Go/pkg/core/dl => ./pkg/core/dl
+replace github.com/zuchzub/Go/pkg/lang => ./pkg/lang
+replace github.com/zuchzub/Go/pkg/vc => ./pkg/vc
+replace github.com/zuchzub/Go/pkg/vc/ntgcalls => ./pkg/vc/ntgcalls
+replace github.com/zuchzub/Go/pkg/vc/ubot => ./pkg/vc/ubot
