@@ -3,8 +3,8 @@ package db
 import (
 	"context"
 	"errors"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"github.com/zuchzub/Go/pkg/config"
+"github.com/zuchzub/Go/pkg/core/cache"
 	"log"
 	"time"
 
