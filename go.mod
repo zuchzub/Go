@@ -1,4 +1,4 @@
-module github.com/AshokShau/TgMusicBot
+module https://github.com/zuchzub/Go
 
 go 1.24.4
 
