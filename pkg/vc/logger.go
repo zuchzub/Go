@@ -2,11 +2,11 @@ package vc
 
 import (
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"github.com/zuchzub/Go/pkg/config"
+"github.com/zuchzub/Go/pkg/core/cache"
 
-	"github.com/Laky-64/gologging"
-	tg "github.com/amarnathcjd/gogram/telegram"
+"github.com/Laky-64/gologging"
+tg "github.com/amarnathcjd/gogram/telegram"
 )
 
 // sendLogger sends a formatted log message to the designated logger chat.
