@@ -1,7 +1,7 @@
 package ubot
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
+	"https://github.com/zuchzub/Go/pkg/vc/ntgcalls"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )
