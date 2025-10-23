@@ -6,8 +6,8 @@ package core
 
 import (
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
+	"github.com/zuchzub/Go/pkg/core/cache"
+"github.com/zuchzub/Go/pkg/lang"
 
 	"github.com/amarnathcjd/gogram/telegram"
 )
