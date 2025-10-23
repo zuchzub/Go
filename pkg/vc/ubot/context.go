@@ -1,8 +1,8 @@
 package ubot
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
+	"github.com/zuchzub/Go/pkg/vc/ntgcalls"
+	"github.com/zuchzub/Go/pkg/vc/ubot/types"
 	"sync"
 
 	tg "github.com/amarnathcjd/gogram/telegram"

@@ -1,7 +1,7 @@
 package ubot
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
+	"github.com/zuchzub/Go/pkg/vc/ntgcalls"
 )
 
 func (ctx *Context) Record(chatId any, mediaDescription ntgcalls.MediaDescription) error {

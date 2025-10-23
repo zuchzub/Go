@@ -2,10 +2,10 @@ package ubot
 
 import (
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
+	"github.com/zuchzub/Go/pkg/vc/ubot/types"
 	"time"
 
-	ntgcalls2 "https://github.com/iamnolimit/tggomusicbot/pkg/vc/ntgcalls"
+	ntgcalls2 "github.com/zuchzub/Go/pkg/vc/ntgcalls"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )

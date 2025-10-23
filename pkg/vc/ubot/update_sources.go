@@ -1,7 +1,7 @@
 package ubot
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc/ubot/types"
+	"github.com/zuchzub/Go/pkg/vc/ubot/types"
 	"slices"
 )
 
