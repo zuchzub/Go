@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/iamnolimit/tggomusicbot/pkg"
-	"github.com/iamnolimit/tggomusicbot/pkg/config"
+	"github.com/zuchzub/Go/pkg"
+	"github.com/zuchzub/Go/pkg/config"
 	"github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"github.com/iamnolimit/tggomusicbot/pkg/lang"
-	"github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"github.com/zuchzub/Go/pkg/lang"
+	"github.com/zuchzub/Go/pkg/vc"
 
 	"log"
 	"net/http"
