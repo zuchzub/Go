@@ -2,8 +2,8 @@ package dl
 
 import (
 	"context"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"github.com/zuchzub/Go/pkg/config"
+	"github.com/zuchzub/Go/pkg/core/cache"
 )
 
 // MusicService defines a standard interface for interacting with various music services.

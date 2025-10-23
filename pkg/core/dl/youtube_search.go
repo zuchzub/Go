@@ -3,7 +3,7 @@ package dl
 import (
 	"encoding/json"
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/cache"
+	"github.com/zuchzub/Go/pkg/core/cache"
 	"io"
 	"net/http"
 	"regexp"

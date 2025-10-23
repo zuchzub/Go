@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/zuchzub/Go/pkg/config"
-"github.com/zuchzub/Go/pkg/core/cache"
+	"github.com/zuchzub/Go/pkg/core/cache"
 	"net/http"
 	"net/url"
 	"regexp"

@@ -5,7 +5,7 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
+	"github.com/zuchzub/Go/pkg/config"
 	"io"
 	"log"
 	"math/big"
