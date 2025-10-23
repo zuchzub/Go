@@ -1,11 +1,12 @@
 package main
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/core/db"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/lang"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"github.com/iamnolimit/tggomusicbot/pkg"
+	"github.com/iamnolimit/tggomusicbot/pkg/config"
+	"github.com/iamnolimit/tggomusicbot/pkg/core/db"
+	"github.com/iamnolimit/tggomusicbot/pkg/lang"
+	"github.com/iamnolimit/tggomusicbot/pkg/vc"
+
 	"log"
 	"net/http"
 	"time"
@@ -51,7 +52,6 @@ func main() {
 		panic(err)
 	}
 
-	// ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	ctx, cancel := db.Ctx()
 	defer cancel()
 
@@ -84,10 +84,10 @@ func main() {
 		gologging.FatalF("Failed to initialize the package: %v", err)
 		return
 	}
+
 	gologging.InfoF("The bot is running as @%s.", client.Me().Username)
 	_, _ = client.SendMessage(config.Conf.LoggerId, "The bot has started!")
 
-	// <-ctx.Done()
 	client.Idle()
 	gologging.InfoF("The bot is shutting down...")
 	vc.Calls.StopAllClients()
