@@ -1,9 +1,9 @@
 package pkg
 
 import (
-	"https://github.com/iamnolimit/tggomusicbot/pkg/config"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/handlers"
-	"https://github.com/iamnolimit/tggomusicbot/pkg/vc"
+	"github.com/zuchzub/Go/pkg/config"
+"github.com/zuchzub/Go/pkg/handlers"
+"github.com/zuchzub/Go/pkg/vc"
 
 	tg "github.com/amarnathcjd/gogram/telegram"
 )
